@@ -1,0 +1,88 @@
+body {
+            background-color: #4A0000;
+            color: #FFF;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color:#FFD700;
+            
+        }
+      p{
+        font-size:20px;
+      }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color:#FFD700;
+        }
+
+   
+
+           /* Styles for the grid container */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Styles for the card */
+    .card {
+      color: #FFD700;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: card-appear 1.2s ease-in-out forwards
+    }
+
+
+  
+  @keyframes card-appear {
+  from { opacity: 0; transform: translateY(20px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+    /* Styles for the book icon */
+    .book-icon {
+      font-size: 48px;
+      color: #4CAF50llll;
+      margin-bottom: 20px;
+    }
+
+    /* Styles for the card title */
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Styles for the card content */
+    .card-content {
+      font-size: 16px;
+    }
+  a{
+    text-decoration: none;
+    color:  white;
+  }
+  
+  .card-content{
+    background-color:#4A0000;
+    padding : 10px 10px;
+    color:white;
+    border-radius: 5px;
+  }
+
+ 

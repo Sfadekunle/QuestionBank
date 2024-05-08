@@ -1,0 +1,110 @@
+body {
+            background-color: #4A0000;
+            color: #FFF;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+           height: 50px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #FFD700;
+            padding: 20px;
+           
+           
+        }
+
+       h1{
+         font-size: 28px;
+            color:#FFD700;
+            text-align: center;
+            padding: 0;
+       }
+
+      h1, a{
+        margin-bottom: 10px;
+      }
+
+      p{
+        font-size:20px;
+      }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color:#FFD700;
+            text-align: center;
+        }
+         
+
+           /* Styles for the grid container */
+    .grid-container {
+      display: grid;
+      gap: 20px;
+      padding: 20px;
+    }
+
+  .card {
+  color: #FFD700;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: card-appear 1.2s ease-in-out forwards; 
+}
+
+.hide {
+  display: noe;
+}
+
+#restart {
+  font-size: 1.3em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  margin-top: 0.9em;
+}
+
+.display-container {
+  background-color: #ffffff;
+  padding: 3.1em 1.8em;
+  width: 80%;
+  max-width: 37.5em;
+  margin: 0 auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+}
+
+/* Animation keyframes for the card */
+@keyframes card-appear {
+  from { opacity: 0; transform: translateY(20px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+/* Styles for the book icon */
+.book-icon {
+  font-size: 48px;
+  color:#000000 ;
+  margin-bottom: 20px;
+}
+
+/* Styles for the card title */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styles for the card content */
+.card-content {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #4A0000;
+}
